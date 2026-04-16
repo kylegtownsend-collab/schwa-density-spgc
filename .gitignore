@@ -21,10 +21,10 @@ SPGC-metadata-2018-07-18.csv
 oanc_oov_phones.json
 
 # Intermediate pandoc builds (paper_draft.tex is the source of truth;
-# paper.pdf is the shipped artifact)
+# paper.pdf and paper.docx are shipped artifacts)
 paper_inlined.tex
+paper_docx.tex
 paper.html
-paper.docx
 
 # Snapshot archives
 archive.zip
