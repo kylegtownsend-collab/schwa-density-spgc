@@ -74,6 +74,23 @@ in lexical and syntactic features \citep{grieve2023}. What this toolkit
 lacks is a phoneme-level single-feature measure that is robust to
 preprocessing variation and conceptually transparent.
 
+English vowel reduction is one of the most-studied phonological
+processes: unstressed vowels in polysyllabic words neutralise toward
+schwa at rates that depend on stress patterns, which in turn vary with
+lexical origin. Latinate polysyllabic vocabulary
+(\emph{condition}, \emph{contribution}, \emph{association}) produces
+denser unstressed-vowel sequences per word than Germanic monosyllabic
+vocabulary (\emph{house}, \emph{dog}, \emph{run}). Register is partly
+a function of which lexical stratum a text draws from --- formal
+written English favours Latinate; conversational speech and
+dialogue-heavy fiction favour Germanic --- so phonological reduction
+is mechanistically linked to register in a way orthographic features
+can only capture indirectly. A phoneme-level single-feature measure
+therefore trades some classifier performance, relative to a
+multi-feature model, for conceptual transparency and a grounded
+causal story. The question this paper tests is how much is lost in
+that trade.
+
 We propose schwa density, defined as the proportion of vowel phones in
 a text that are unstressed schwa (\texttt{AH0} in the CMU Pronouncing
 Dictionary), as such a measure. The measure has two attractive
@@ -580,6 +597,26 @@ The NLTK divergence of 0.154 is the only data point that does not fit
 the structural-dominance story cleanly. We note it for completeness
 and leave its interpretation open; we do not promote it to a
 substantive claim.
+
+\subsection{Implications for register theory}
+
+The two-regime finding has a straightforward implication for the
+multi-dimensional analysis (MDA) framework in which register is
+conventionally parameterised. MDA models bundle lexical, syntactic,
+and functional features into derived dimensions (``involved vs
+informational,'' ``narrative vs non-narrative'') and assume those
+dimensions carry register variation uniformly. The four-corpus
+comparison here suggests they do not. Within-prose register variation
+(NLTK, SPGC, Brown) is phonologically penetrable with a single
+phoneme-level feature --- content-word vowel reduction carries it
+directly. Cross-modality variation (OANC) is not: modality
+reorganises function-word frequency itself, fusing the phonological
+and lexical components of the signal. Schwa density is therefore not
+a replacement for MDA but a decomposition tool --- it isolates the
+content-word-phonology dimension of register from the
+function-word-frequency dimension MDA implicitly conflates with it.
+Whether other single-feature measures admit analogous decompositions
+is an open question.
 
 \section{Limitations}
 
