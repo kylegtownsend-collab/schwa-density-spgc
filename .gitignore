@@ -1,0 +1,34 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Raw third-party corpora (licensed, bulky, regenerable from upstream)
+spgc_texts/
+oanc_texts/
+brown_texts/
+nltk_multi_texts/
+
+# Upstream SPGC bulk data
+SPGC-tokens-2018-07-18.zip
+SPGC-metadata-2018-07-18.csv
+
+# Per-corpus error logs (regenerable from the analyser)
+*_errors.csv
+
+# Large derived lookup (regenerable via g2p_oanc_rerun.py)
+oanc_oov_phones.json
+
+# Intermediate pandoc builds (paper_draft.tex is the source of truth;
+# paper.pdf is the shipped artifact)
+paper_inlined.tex
+paper.html
+paper.docx
+
+# Snapshot archives
+archive.zip
+
+# Editor / OS
+.DS_Store
+*.swp

@@ -1,0 +1,72 @@
+This repository is dual-licensed.
+
+=============================================================================
+CODE (everything in this repo except the paper, figures, and data tables)
+MIT License
+=============================================================================
+
+Copyright (c) 2026 Kyle Townsend
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+=============================================================================
+PAPER, FIGURES, AND DATA TABLES
+(paper_draft.tex, paper.pdf, fig*.png, *_features*.csv, *_results_table.csv,
+ *_comparison.csv, sentence_length_validation.csv, bucket_sensitivity.csv,
+ tests_summary.csv, prereg.md, deviations.md, SUMMARY_MEMO.md,
+ SPGC_HANDOFF.md, REVISION_PLAN.md)
+
+Creative Commons Attribution 4.0 International (CC-BY-4.0)
+=============================================================================
+
+Copyright (c) 2026 Kyle Townsend
+
+This work is licensed under the Creative Commons Attribution 4.0
+International License. To view a copy of this license, visit
+https://creativecommons.org/licenses/by/4.0/
+
+You are free to:
+  * Share — copy and redistribute the material in any medium or format
+  * Adapt — remix, transform, and build upon the material for any purpose,
+    even commercially.
+
+Under the following terms:
+  * Attribution — You must give appropriate credit, provide a link to the
+    license, and indicate if changes were made.
+
+
+=============================================================================
+THIRD-PARTY CORPORA AND DICTIONARIES
+=============================================================================
+
+This project analyses but does not redistribute the following third-party
+corpora. Each is governed by its own upstream license. Obtain each from
+the upstream source before reproducing results.
+
+  * CMU Pronouncing Dictionary (CMUdict 0.7b) — public domain.
+    http://www.speech.cs.cmu.edu/cgi-bin/cmudict
+  * NLTK corpora (Brown, Gutenberg sample, Reuters, etc.) — each has its
+    own license; see the NLTK distribution.
+    https://www.nltk.org/
+  * Standardized Project Gutenberg Corpus (SPGC) — CC-BY-4.0.
+    Gerlach & Font-Clos (2020), Entropy 22(1), 126.
+    https://zenodo.org/record/2422561
+  * Open American National Corpus (OANC-GrAF) — open-use per ANC policy.
+    https://www.anc.org/data/oanc/

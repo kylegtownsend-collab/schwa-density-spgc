@@ -1,0 +1,7 @@
+corpus,n_qualifying,n_buckets,eta2_schwa,eta2_fk,eta2_gap,partial_eta2_schwa_given_joint3,retained_pct,r_schwa_condH,r_schwa_margH,margcond_divergence,r_schwa_syllables
+Brown,313,6.0,0.2023,0.2017,0.0006,0.0304,15%,-0.8748,-0.8709,0.0039,0.8017
+NLTK_multi,135,3.0,0.6155,0.1859,0.4295,0.2823,46%,-0.6713,-0.825,0.1538,0.7919
+SPGC,2767,12.0,0.3652,0.3701,-0.0048,0.1918,53%,-0.9364,-0.9481,0.0117,0.8485
+OANC,4375,6.0,0.8467,0.8936,-0.0469,0.1093,13%,-0.8995,-0.9458,0.0464,0.9376
+Brown_5bucket,500,4.0,0.5179,0.5336,,0.0517,,-0.9243,,,
+GITenberg(handoff_ref),142,,0.318,0.117,0.201,,,-0.94,,,

@@ -1,0 +1,3 @@
+corpus,variant,n_qual,eta2
+OANC,original (OOV excluded),4375,0.8467
+OANC,G2P fallback (espeak-ng),4406,0.8095

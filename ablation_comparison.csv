@@ -1,0 +1,5 @@
+corpus,n_qual,n_buckets,eta2_masked,ci_lo,ci_hi,pass_t1,eta2_unmasked,ci_lo_unmasked,retention
+nltk_multi,137,3,0.7809,0.7357,0.8267,True,0.6155,0.5307,1.269
+spgc,2729,12,0.4338,0.4059,0.4644,True,0.3652,0.3388,1.188
+brown,308,6,0.2498,0.1933,0.3392,True,0.2023,0.1416,1.235
+oanc,4196,6,0.7859,0.777,0.7949,True,0.8467,0.8404,0.928
