@@ -1,7 +1,7 @@
 # Schwa density as a phonological register classifier
 
 **Source repository for:**
-Townsend, K., & Claude (2026). *Schwa Density as a Phonological Stylistic Classifier: Primary Stylistic, Secondary Modality. A Four-Corpus Pre-Registered Replication.*
+Townsend, K. (2026). *Schwa Density as a Phonological Stylistic Classifier: Primary Stylistic, Secondary Modality. A Four-Corpus Pre-Registered Replication.* Analysis and writing assistance provided by Claude (Anthropic).
 
 - Paper (PDF, HTML, DOCX): <https://papers.letsharkness.com/schwa-density/>
 - Pre-registration: [`prereg.md`](prereg.md) (locked before any confirmatory data look)
@@ -127,13 +127,14 @@ Bootstrap CIs throughout use `random_state=42` and 1,000 within-group resamples;
 
 ```bibtex
 @misc{townsend2026schwa,
-  author       = {Townsend, Kyle and {Claude}},
+  author       = {Townsend, Kyle},
   title        = {Schwa Density as a Phonological Stylistic Classifier:
                   Primary Stylistic, Secondary Modality.
                   A Four-Corpus Pre-Registered Replication},
   year         = {2026},
   howpublished = {\url{https://papers.letsharkness.com/schwa-density/}},
-  note         = {Source: \url{https://github.com/kylegtownsend-collab/schwa-density-spgc}},
+  note         = {Source: \url{https://github.com/kylegtownsend-collab/schwa-density-spgc}.
+                  Analysis and writing assistance provided by Claude (Anthropic).},
 }
 ```
 
